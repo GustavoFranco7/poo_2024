@@ -24,12 +24,12 @@ print ("El numero es: "+str(numero))
 
 #Concatenar un str con int
 
-n1='23'
-n2=33
+n1 = '23'
+n2 = 33
 
-suma= int(n1)+n2
+suma = int(n1) + n2
 
-print ("El numero es: "+suma)
+print("El número es: " + str(suma))
 
 #Concatenar un float y int con str
 
@@ -39,7 +39,7 @@ n2=33.1
 suma= int(n1)+n2
 
 print ("El numero es: "+str(int(suma)))
-print(f"El numero: int(suma)")
+print(f"El numero: {int(suma)}")
 
 #Concatenar un float y float con float
 
@@ -47,6 +47,6 @@ n1='23.34'
 n2='33.99'
 
 suma=float(n1)+float(n2)
-print(f"El numero: int(suma)")
+print(f"El numero: {int(suma)}")
 
 
