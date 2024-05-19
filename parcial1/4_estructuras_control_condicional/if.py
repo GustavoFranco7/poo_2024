@@ -12,7 +12,7 @@ Tienes 4 variables de if
 3.-Elif
 
 """
-
+"""
 #Ejemplo 1 If simple
 color=input("Ingresa un color: ")
 
@@ -50,7 +50,7 @@ elif color== "morado":
      print("Soy el color morado ")
 else:
     print("No soy ningun color de los anteriores")
-
+"""
 #Ejemplo 5 crear un programa que solicite el numero de la semana 
 # e imprima en pantalla el dia que le corresponde
 
