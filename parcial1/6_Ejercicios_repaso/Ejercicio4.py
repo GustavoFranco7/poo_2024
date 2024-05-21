@@ -3,8 +3,8 @@
 # basicas de una calculadora (+,-,*,/)
 # y mostrar por pantalla el resultado
 
-num1 = input ("ingresa un numero ")
-num2 = input ("ingresa otro numero ")
+num1 = input ("ingresa el primer numero ")
+num2 = input ("ingresa el segundo numero ")
 
 print ("suma")
 suma = int(num1) + int(num2)
