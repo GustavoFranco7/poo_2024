@@ -5,5 +5,7 @@
 pais = input ("Pais: ")
 continente = input ("Continente: ")
 
+print(f"Su Pais es: {pais} ")
 print(type(pais))
+print(f"su continente es: {continente}")
 print(type(continente))
