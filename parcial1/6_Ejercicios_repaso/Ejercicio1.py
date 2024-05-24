@@ -9,3 +9,5 @@ print(f"Su Pais es: {pais} ")
 print(type(pais))
 print(f"su continente es: {continente}")
 print(type(continente))
+
+x=33
