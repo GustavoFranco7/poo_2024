@@ -35,11 +35,8 @@ palabras = ["hola", "2024", "10.23", "true"]
 palabra_buscar = input("Ingrese la palabra a buscar: ")
 
 if palabra_buscar in palabras:
-    posicion = palabras.index(palabra_buscar)
-    print(f"Encontre la palabra {palabra_buscar} en la posición {posicion}.")
+   posicion = palabras.index(palabra_buscar)
+   print(f"Encontre la palabra '{palabra_buscar}' en la posición {posicion}.")
 else:
     print(f"La palabra '{palabra_buscar}' no se encontró en la lista.")
-
-
-
 
