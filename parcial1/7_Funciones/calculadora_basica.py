@@ -44,6 +44,7 @@ else:
 import os
 
 from Varias_funciones import *
+# import Varias_funciones
 
 #def solicitarNumeros():
     #global n1,n2
