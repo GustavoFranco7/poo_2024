@@ -1,31 +1,32 @@
 import math
 
-def sumar(a, b):
-    return a + b
+# def sumar(a, b):
+#     return a + b
 
-def restar(a, b):
-    return a - b
+# def restar(a, b):
+#     return a - b
 
-def multiplicar(a, b):
-    return a * b
+# def multiplicar(a, b):
+#     return a * b
 
-def dividir(a, b):
-    if b != 0:
-        return a / b
-    else:
-        return "Error: División por cero no permitida."
+# def dividir(a, b):
+#     if b != 0:
+#         return a / b
+#     else:
+#         return "Error: División por cero no permitida."
 
-def raiz(a):
-    if a >= 0:
-        return math.sqrt(a)
-    else:
-        return "Error: Raíz cuadrada de un número negativo no permitida."
+# def raiz(a):
+#     if a >= 0:
+#         return math.sqrt(a)
+#     else:
+#         return "Error: Raíz cuadrada de un número negativo no permitida."
 
-def potencia(a, b):
-    return a ** b
+# def potencia(a, b):
+#     return a ** b
 
-def calculadora():
-    while True:
+# def calculadora():
+from Funciones_compartir import *
+while True:
         print("Calculadora básica \n")
         print("1. Suma")
         print("2. Resta")
@@ -57,6 +58,7 @@ def calculadora():
             print("Programa finalizado")
             break
         else:
-            print("Opción no válida. Por favor, elige una opción válida.")
+            print("Opción no válida. Por favor, elige una opción válida")
+print("gracias")
 
 calculadora()
