@@ -99,3 +99,4 @@ CREATE TABLE empleados (
     puesto VARCHAR(255),
     salario DECIMAL(10,2)
 );
+
