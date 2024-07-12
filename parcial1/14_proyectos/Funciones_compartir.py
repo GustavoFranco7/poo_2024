@@ -1,3 +1,4 @@
+
 lista_peliculas = ["Toy story", "cars"]
 
 import os
@@ -81,3 +82,30 @@ mi_lista = [1, 2, 3, 4, 5]
 # Buscar y reemplazar el valor
 valor_a_buscar = int(input("Ingresa el valor que quieres buscar y reemplazar en la lista: "))
 reemplazar_dato(mi_lista, valor_a_buscar)
+
+def sumar(a, b):
+    return a + b
+
+def restar(a, b):
+    return a - b
+
+def multiplicar(a, b):
+    return a * b
+
+def dividir(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Error: División por cero no permitida."
+
+def raiz(a):
+    if a >= 0:
+        return math.sqrt(a)
+    else:
+        return "Error: Raíz cuadrada de un número negativo no permitida."
+
+def potencia(a, b):
+    return a ** b
+
+def calculadora():
+    print("Gracias por usar el sistema")
